@@ -18,17 +18,14 @@ class Stack {
   }
   push(element) {
     this.array.push(element);
-    // remove line with error and write your code here
   }
 
   pop() {
     return this.array.pop();
-    // remove line with error and write your code here
   }
 
   peek() {
     return this.array[this.array.length - 1];
-    // remove line with error and write your code here
   }
 }
 
